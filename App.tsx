@@ -4,6 +4,7 @@ import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 import { rootStackNavigation } from './src/types/rootStackNavigation';
 import Main from './src/screen/main/page';
+import { Config } from './src/screen/config/page';
 
 export default function App() {
 
@@ -13,6 +14,7 @@ export default function App() {
     <NavigationContainer>
       <Stack.Navigator initialRouteName='Main' screenOptions={{headerShown: false}}>
         <Stack.Screen name='Main' component={Main} initialParams={{codUser: ''}}/>
+        <Stack.Screen name='Config' component={Config} />
       </Stack.Navigator>
     </NavigationContainer>
   );

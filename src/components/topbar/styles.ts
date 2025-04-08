@@ -2,14 +2,15 @@ import { StyleSheet } from "react-native";
 
 export const styles = StyleSheet.create({
     top: {
-        height: 60,
+        height: 40,
         backgroundColor: '#1d1d1d',
         justifyContent: 'space-between',
         alignItems: 'center',
         flexDirection: 'row',
         width: '100%',
         paddingHorizontal: 20,
-        elevation: 3
+        elevation: 3,
+        borderRadius: 5
     },
     iconMenu: {
         height: 25,

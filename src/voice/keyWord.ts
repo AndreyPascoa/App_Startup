@@ -1,0 +1,1 @@
+export const keyWord = ['tela', 'relatorio', 'mes', 'dia', 'ano', 'semana']
