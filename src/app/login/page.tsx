@@ -19,13 +19,14 @@ export function Login() {
                 email: email,
                 password: password
             });
+    
             const data: LoginProps = response.data;
-
+    
             console.log(response.data);
-            
-
+    
             if (data.success) {
                 await AsyncStorage.setItem("usuario", JSON.stringify(data.usuario));
+                await AsyncStorage.setItem("token", data.usuario.token); 
             }
             navigation.navigate("Home");
         } catch (error) {
@@ -33,6 +34,7 @@ export function Login() {
             Alert.alert("Login failed", "Please check your credentials and try again.");
         }
     }
+    
 
     return (
         <View style={stylesLogin.container}>
