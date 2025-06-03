@@ -1,0 +1,141 @@
+import { StyleSheet } from "react-native";
+
+export const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: "#fff",
+    paddingHorizontal: 20,
+    paddingTop: 40,
+  },
+  header: {
+    flexDirection: "row",
+    justifyContent: "space-between",
+    alignItems: "center",
+    marginBottom: 20,
+  },
+  title: {
+    fontSize: 24,
+    fontWeight: "bold",
+    color: "#333",
+  },
+  highlight: {
+    color: "#F59E0B",
+  },
+  sectionTitle: {
+    fontSize: 16,
+    fontWeight: "bold",
+    color: "#333",
+    marginTop: 20,
+    marginBottom: 10,
+  },
+  cardContainer: {
+    flexDirection: "row",
+    justifyContent: "space-between",
+    flexWrap: "wrap",
+    gap: 12,
+  },
+  card: {
+    backgroundColor: "#f9f9f9",
+    borderRadius: 12,
+    padding: 16,
+    width: "48%",
+    elevation: 2,
+    flexDirection: "row",
+    alignItems: "center",
+    gap: 10,
+  },
+  cardLabel: {
+    fontSize: 14,
+    color: "#666",
+  },
+  cardValue: {
+    fontSize: 16,
+    fontWeight: "bold",
+    color: "#333",
+  },
+  notesBlock: {
+    backgroundColor: "#f9f9f9",
+    borderRadius: 10,
+    padding: 14,
+    marginBottom: 20,
+  },
+  noteItem: {
+    flexDirection: "row",
+    alignItems: "center",
+    gap: 10,
+    marginBottom: 10,
+  },
+  noteText: {
+    fontSize: 14,
+    color: "#333",
+  },
+  addNoteButton: {
+    flexDirection: "row",
+    alignItems: "center",
+    marginTop: 10,
+  },
+  addNoteText: {
+    fontSize: 14,
+    fontWeight: "600",
+    color: "#F59E0B",
+    marginLeft: 6,
+  },
+  todo: {
+    fontSize: 14,
+    color: "#444",
+    backgroundColor: "#f3f4f6",
+    padding: 10,
+    borderRadius: 8,
+  },
+  actions: {
+    flexDirection: "row",
+    gap: 12,
+    marginBottom: 20,
+  },
+  actionButton: {
+    flexDirection: "row",
+    backgroundColor: "#22c55e",
+    paddingVertical: 10,
+    paddingHorizontal: 14,
+    borderRadius: 8,
+    alignItems: "center",
+    gap: 6,
+    flex: 1,
+  },
+  actionText: {
+    color: "#fff",
+    fontWeight: "bold",
+    fontSize: 14,
+  },
+  fakeChart: {
+    backgroundColor: "#f3f4f6",
+    height: 100,
+    borderRadius: 8,
+    justifyContent: "center",
+    paddingHorizontal: 16,
+    marginBottom: 30,
+  },
+  modalBackdrop: {
+    flex: 1,
+    backgroundColor: "rgba(0,0,0,0.4)",
+    justifyContent: "center",
+    alignItems: "center",
+  },
+  modalContent: {
+    backgroundColor: "#fff",
+    padding: 20,
+    borderRadius: 12,
+    width: "80%",
+    elevation: 10,
+  },
+  modalTitle: {
+    fontSize: 18,
+    fontWeight: "bold",
+    color: "#F59E0B",
+    marginBottom: 10,
+  },
+  modalText: {
+    fontSize: 16,
+    color: "#333",
+  },
+});
